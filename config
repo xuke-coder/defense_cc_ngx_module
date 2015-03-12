@@ -1,3 +1,4 @@
 ngx_addon_name=ngx_http_def_cc_module
 HTTP_MODULES="$HTTP_MODULES ngx_http_def_cc_module"
 NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/src/ngx_http_defense_cc_module.c"
+CFLAGS="-O0 -ggdb3"
